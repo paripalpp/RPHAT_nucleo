@@ -366,6 +366,42 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "MHz",
+        "nets": [
+          "/Serial_nu_to_rp",
+          "/Serial_rp_to_nu",
+          "/nuCAN1_RX",
+          "/nuCAN1_TX",
+          "/nuCAN2_RX",
+          "/nuCAN2_TX",
+          "/rp_CAN_RX",
+          "/rp_CAN_TX",
+          "/rp_MISO",
+          "/rp_MOSI",
+          "/rp_SCLK",
+          "Net-(J2-Pad2)",
+          "Net-(J2-Pad3)",
+          "Net-(J3-Pad2)",
+          "Net-(J3-Pad3)",
+          "Net-(J4-Pad2)",
+          "Net-(J4-Pad3)"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "via_diameter": 0.6,
+        "via_drill": 0.4,
+        "wire_width": 6.0
       }
     ],
     "meta": {
