@@ -1,5 +1,7 @@
 # RPHAT_nucleo
 ![3Dimage](RPHAT_nucleo.png "RPHAT_nucleo.png")
+# 注意！！
+CAN2 の PB12 と PB13 がつながってますが、CAN TX と CAN RX が逆なので、使用しない又はプリントを切ってつなぎなおすなどをしてください。(v0)
 # connector
 |Connector|pin number|nucleo pin|
 |---|---|---|
