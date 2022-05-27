@@ -1,7 +1,5 @@
 # RPHAT_nucleo
 ![3Dimage](RPHAT_nucleo.png "RPHAT_nucleo.png")
-# 注意！！
-CAN2 の PB12 と PB13 がつながってますが、CAN TX と CAN RX が逆なので、使用しない又はプリントを切ってつなぎなおすなどをしてください。(v0)
 # connector
 |Connector|pin number|nucleo pin|
 |---|---|---|
@@ -25,6 +23,10 @@ J8|2|PC_13
 J8|3|PC_14
 J8|4|PC_15
 J8|5|GND
-## LISENCE
+# 注意！！
+V0のボードは CAN2 の PB12 と PB13 がつながってますが、CAN TX と CAN RX が逆なので、使用しない又はプリントを切ってつなぎなおすなどをしてください。
+ 
+V1のボードは解決済み。
+# LISENCE
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 <br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ 表示 4.0 国際 ライセンス</a>の下に提供されています。
